@@ -11,7 +11,7 @@ from PySide6.QtWidgets import QApplication, QTableWidget, QTableWidgetItem, QVBo
 from hostBlocking import WebsiteBlocking
 
 # Set up your OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = 'Enter your own OpenAI API credentials'
 
 
 class ScheduleWidget(QWidget):
