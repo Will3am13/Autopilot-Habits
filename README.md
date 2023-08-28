@@ -4,4 +4,6 @@ This repo contains the contents of my Autopilot project. Autopilot is intended t
 
 It has expanded to incorporating Chat-GPT to auto-schedule events for the current week based on basic parameters like description, due date, and estimated time. This "auto-scheduling" functionality could be achieved using other methods, but the purpose of the project was to get familiar with the OpenAI API. In the main file be sure to include your own OPEN AI API key for the application to work.
 
-The application also has the ability to modify the hosts.txt file on Windows. This allows for the blocking and unblocking of specific websites included in the WebBlockData list. When an event in the calendar is activated, the selected websites are automatically blocked until the event is over.
+The application also has the ability to modify the hosts.txt file on Windows. This allows for the blocking and unblocking of the specific websites included in the hosts_modified.txt When an event in the calendar is activated, the selected websites are automatically blocked until the event is over.
+
+todoList.py is an additional project. A simple to-do list to put on the desktop. Once an event is added, click to strike-through the event, and double-click to remove it.
