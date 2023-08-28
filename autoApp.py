@@ -2,7 +2,7 @@ import openai
 from datetime import datetime, timedelta
 
 # Set up your OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = 'Enter your API key here'
 
 
 def generate_event_schedule(title, description, duration, due_date, color):
