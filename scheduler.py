@@ -39,7 +39,7 @@ class ddCalendar:
         print(self.dueDate)
 
 
-eventBlock = ddCalendar("Meeting", "Bs to do idk", "2023-05-17 09:00", "2023-05-17 11:00", "2023-05-18")
+eventBlock = ddCalendar("Math Homework", "pg.120-124 problems #10-34 even", "2023-05-17 09:00", "2023-05-17 11:00", "2023-05-18")
 eventBlock.display()
 
 eventBlock.setStart("2023-05-17 07:00")
