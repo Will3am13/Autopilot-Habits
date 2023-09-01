@@ -7,12 +7,12 @@ import os
 
 class WebsiteBlocking:
     # Setup File locations
-    openHostsFile = r"C:\Users\willq\PycharmProjects\Autopilot\hosts_unmodified.txt"
-    blockHostsFile = r"C:\Users\willq\PycharmProjects\Autopilot\hosts_modified.txt"
-    openHostsFileBackup = r"C:\Users\willq\PycharmProjects\Autopilot\hosts_unmodified_backup.txt"
-    blockHostsFileBackup = r"C:\Users\willq\PycharmProjects\Autopilot\hosts_modified_backup.txt"
+    openHostsFile = r"C:\Users\UserName\Autopilot\hosts_unmodified.txt"
+    blockHostsFile = r"C:\Users\UserName\Autopilot\hosts_modified.txt"
+    openHostsFileBackup = r"C:\Users\UserName\Autopilot\hosts_unmodified_backup.txt"
+    blockHostsFileBackup = r"C:\Users\UserName\Autopilot\hosts_modified_backup.txt"
     # Setup initial banned websites list
-    banData = pd.read_csv(r"C:\Users\willq\PycharmProjects\Autopilot\cleanedWebBlockData.csv")
+    banData = pd.read_csv(r"C:\Users\UserName\PycharmProjects\Autopilot\cleanedWebBlockData.csv")
     blockDomains = banData.domain.values.tolist()
 
     def __init__(self):
